@@ -26,3 +26,12 @@ type MachineType struct {
 	Capacity      int    `json:"capacity"`
 	Refrigeration bool   `json:"refrigeration"`
 }
+
+type Product struct {
+	PID         int     `json:"PID"`
+	Name        string  `json:"name"`
+	Description string  `json:"description"`
+	ImageUrl    string  `json:"image_url"`
+	Price       float32 `json:"price"`
+	Category    string  `json:"category"`
+}
